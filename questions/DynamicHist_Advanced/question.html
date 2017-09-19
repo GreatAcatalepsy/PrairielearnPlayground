@@ -1,0 +1,17 @@
+<pl_question_panel>
+  <p> Given the following histogram, which is larger, the mean or the median?
+  <pl_figure file_name="figure.png" type="dynamic" />
+</pl_question_panel>
+
+<pl_multiple_choice answers_name="ans" weight="1">
+  <pl_answer correct="true">
+    $ans = {{params.ans_correct}}\rm\ s$
+  </pl_answer>
+  <pl_answer correct="false">
+    $ans = {{params.ans_false1}}\rm\ s$
+  </pl_answer>  
+  <pl_answer correct="false">
+    $ans = {{params.ans_false2}}\rm\ s$
+  </pl_answer>  
+</pl_multiple_choice>
+<pl_variable_score answers_name="ans" />
