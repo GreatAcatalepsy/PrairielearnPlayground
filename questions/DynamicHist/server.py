@@ -5,6 +5,7 @@ def generate(data):
 
     a = random.randint(20, 100)
     histo = [random.randint(1, 100) for i in range(a)]
+    data['params']['histo'] = histo
     #plt.hist(histo)
     #data["params"]["a"] = a
  
@@ -16,7 +17,7 @@ def generate(data):
 
 def file(data):
     if data['filename']=='figure.png':
-        plt.hist(histo)
+        plt.hist(data['params']['histo'])
         buf = io.BytesIO()
         plt.savefig(buf,format='png')
         return buf
