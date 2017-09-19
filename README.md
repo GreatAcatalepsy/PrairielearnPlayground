@@ -1,1 +1,2 @@
-# pl-cs498pl
+# Sample Questions for Stat100
+Part of the CS498 Online Learning Systems classes where we write content and infrastructure for PrairieLearn. We will construct some sample content for Stat100 and then pivot to larger scale development for another class.
