@@ -1,5 +1,6 @@
 import random
 import matplotlib.pyplot as plt
+import io
 
 def generate(data):
 
