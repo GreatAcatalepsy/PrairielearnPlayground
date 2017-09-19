@@ -1,0 +1,14 @@
+{
+    "uuid": "730c8568-e21e-40af-bd3f-f6b886866711",
+    "name": "CS 498 PL",
+    "title": "Online Learning Systems",
+    "assessmentSets": [
+        {"abbreviation": "D", "name": "Development", "heading": "Developments", "color": "brown1"}
+    ],
+    "topics": [
+        {"name": "Test", "color": "blue1", "description": "For questions under development."}
+    ],
+    "tags": [
+        {"name": "example", "color": "red1", "description": "Questions that serve as examples."}
+    ]
+}

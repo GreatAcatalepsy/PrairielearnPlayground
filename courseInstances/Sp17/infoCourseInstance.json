@@ -1,0 +1,40 @@
+{
+    "uuid": "21d6da33-8c76-41dd-badf-2a9347477c05",
+    "shortName": "Sp17",
+    "longName": "Spring 2017",
+    "userRoles": {
+        "tbretl@illinois.edu": "Instructor",
+        "kagrawa3@illinois.edu": "Instructor",
+        "asharm52@illinois.edu": "Instructor",
+        "aesteve2@illinois.edu": "Instructor",
+        "elshenn2@illinois.edu": "Instructor",
+        "cfan12@illinois.edu": "Instructor",
+        "elriley2@illinois.edu": "Instructor",
+        "glherman@illinois.edu": "Instructor",
+        "jaekwak2@illinois.edu": "Instructor",
+        "jkalfor2@illinois.edu": "Instructor",
+        "jjwu2@illinois.edu": "Instructor",
+        "marcusl3@illinois.edu": "Instructor",
+        "mfsilva@illinois.edu": "Instructor",
+        "minhuic2@illinois.edu": "Instructor",
+        "nkosasi2@illinois.edu": "Instructor",
+        "volodin2@illinois.edu": "Instructor",
+        "suxiang2@illinois.edu": "Instructor",
+        "tstelzer@illinois.edu": "Instructor",
+        "xh9@illinois.edu": "Instructor",
+        "feng36@illinois.edu": "Instructor",
+        "zeyuwen2@illinois.edu": "Instructor",
+        "zliu63@illinois.edu": "Instructor",
+        "delonge2@illinois.edu": "Instructor",
+        "jluong4@illinois.edu": "Instructor",
+        "xyang54@illinois.edu": "Instructor",
+        "hyhsiao2@illinois.edu": "Instructor",
+        "saharia1@illinois.edu": "Instructor"
+    },
+    "allowAccess": [
+        {
+            "startDate": "2017-08-31T00:00:01",
+            "endDate": "2017-12-31T23:59:59"
+        }
+    ]
+}
