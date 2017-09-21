@@ -10,21 +10,18 @@ def generate(data):
     data['params']['histo'] = histo
     median = np.median(histo)
     mean = np.mean(histo)
-    if(median>mean){
+    if(median>mean):
         data["params"]["ans_correct"] = "median"
         data["params"]["ans_false1"] = "mean"
         data["params"]["ans_false2"] = "equal"
-        }
-    elif(mean > median){
+    elif(mean > median):
         data["params"]["ans_false1"] = "median"
         data["params"]["ans_correct"] = "mean"
         data["params"]["ans_false2"] = "equal"
-    }
-    elif(mean == median){
+    elif(mean == median):
         data["params"]["ans_false2"] = "median"
         data["params"]["ans_false1"] = "mean"
         data["params"]["ans_correct"] = "equal"
-    }
     #plt.hist(histo)
     #data["params"]["a"] = a
  
