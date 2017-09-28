@@ -1,0 +1,7 @@
+inconsistent periods
+no latex on answer labels
+bins are a little skewed on histograms
+Mean/Median unclear
+static broken
+Percent sign needs to be inside the box
+
