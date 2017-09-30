@@ -33,7 +33,10 @@ def generate(data):
 
 def file(data):
     if data['filename']=='figure.png':
-        plt.hist(data['params']['histo'])
+        plt.hist(data['params']['histo'], bins =10)
+        plt.xlabel("Weight of Pumpkins (kg)")
+        plt.ylabel("Number of Pumpkins in weight range")
+        plt.title("Distribution of a Farmer's Pumpkins by Weight")
         buf = io.BytesIO()
         plt.savefig(buf,format='png')
         return buf
