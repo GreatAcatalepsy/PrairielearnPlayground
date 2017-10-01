@@ -18,7 +18,7 @@ def generate(data):
 
 def file(data):
     if data['filename']=='figure.png':
-        plt.hist(data['params']['histo'], bins =10)
+        plt.hist(data['params']['histo'], bins =10, histtype='bar', ec='black')
         plt.xlabel("Student's Scores (out of 100)")
         plt.ylabel("Number of Students in Score Range")
         plt.title("Distribution of Students by Exam Scores")

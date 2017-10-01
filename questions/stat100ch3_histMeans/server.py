@@ -33,7 +33,7 @@ def generate(data):
 
 def file(data):
     if data['filename']=='figure.png':
-        plt.hist(data['params']['histo'], bins =10)
+        plt.hist(data['params']['histo'], bins =10, histtype='bar', ec='black')
         plt.xlabel("Weight of Pumpkins (kg)")
         plt.ylabel("Number of Pumpkins in weight range")
         plt.title("Distribution of a Farmer's Pumpkins by Weight")
